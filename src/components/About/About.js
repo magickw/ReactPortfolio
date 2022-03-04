@@ -4,38 +4,41 @@ import Particle from "../Particle";
 import Aboutcard from "./AboutCard";
 import profileImg from "../../images/profile.jpg";
 import Particle from "../Particle";
-import Type from "./Type";
 
-function Home() {
+
+function About() {
   return (
-    <section>
-      <Container fluid className="home-section" id="home">
-        <Particle />
-        <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello! Welcome to Visit My Portfolio Site
-              </h1>
+    <Container fluid className="about-section">
+      <Particle />
+      <Container>
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              About <strong className="blue">Me</strong>
+            </h1>
+            <Aboutcard />
+          </Col>
 
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> BAOFENG GUO</strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
+          <Col md={5} style={{ paddingBottom: 20 }}>
               <img src={profileImg} alt="profile image" className="img-fluid" style="width:160px;border-radius:50%"/>
             </Col>
-          </Row>
-        </Container>
+
+        </Row>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+
       </Container>
-    </section>
+    </Container>
   );
 }
 
-export default Home;
+export default About;
+
