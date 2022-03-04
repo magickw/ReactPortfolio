@@ -27,11 +27,24 @@ function Projects() {
               imgPath={astroDash}
               title="AstroDash"
               description="CodeQuiz is a timed coding quiz with multiple-choice questions."
+              repo_url="https://github.com/DazedChou/Astronomy-Dashboard"
+              deployed_url="https://dazedchou.github.io/Astronomy-Dashboard/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={codeQuiz}
+              title="CodeQuiz"
+              description="CodeQuiz is a timed coding quiz with multiple-choice questions."
               repo_url="https://github.com/magickw/CodeQuiz"
               deployed_url="https://magickw.github.io/CodeQuiz/"
             />
           </Col>
 
+
+
+       
         </Row>
       </Container>
     </Container>
