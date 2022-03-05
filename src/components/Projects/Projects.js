@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+//component
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 
+//Project data
 import astroDash from "../../images/AstroDash.gif";
 import codeQuiz from "../../images/codequiz.gif";
 import weatherDashboard from "../../images/WeatherDashboard.gif";
@@ -13,7 +14,6 @@ import techblog from "../../images/techblog.gif";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           <strong className="purple">Portfolio</strong>
