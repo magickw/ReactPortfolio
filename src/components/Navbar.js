@@ -6,12 +6,15 @@ import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 //imports icons
 import {
-  AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+import {
+  ImHome,
+  ImUser,
+  ImProfile,
+  ImQuill,
+} from "react-icons/im";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -51,7 +54,7 @@ function NavBar() {
               {/* navbar items */}
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <ImHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -61,7 +64,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <ImUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
@@ -84,7 +87,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <ImProfile style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -94,7 +97,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blog
+                <ImQuill style={{ marginBottom: "2px" }} /> Blog
               </Nav.Link>
             </Nav.Item>
 
