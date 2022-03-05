@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-//component
+//components
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
