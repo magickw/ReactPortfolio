@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //imports social icons
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+
+import { 
+  FaGithubSquare,
+  FaTwitterSquare,
+  FaLinkedin
+ } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -25,7 +26,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <FaGithubSquare />
               </a>
             </li>
             <li className="social-icons">
@@ -35,7 +36,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <FaTwitterSquare />
               </a>
             </li>
             <li className="social-icons">
@@ -45,7 +46,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <FaLinkedin />
               </a>
             </li>
           </ul>

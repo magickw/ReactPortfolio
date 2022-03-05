@@ -1,6 +1,6 @@
 //dependencies
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 //components
 import Navbar from "./components/Navbar";
@@ -32,14 +32,12 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch>
+        <Routes>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/skills" component={Skills} />
           <Route path="/projects" component={Projects} />
-        </Switch>
+        </Routes>
         <Footer />
       </div>
     </Router>
