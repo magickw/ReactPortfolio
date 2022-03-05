@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //imports social icons
-
 import { 
   FaGithubSquare,
   FaTwitterSquare,
-  FaLinkedin
+  FaLinkedin,
+  FaInstagramSquare
  } from "react-icons/fa";
 
 function Footer() {
@@ -29,6 +29,7 @@ function Footer() {
                 <FaGithubSquare />
               </a>
             </li>
+
             <li className="social-icons">
               <a
                 href="https://twitter.com/bfguo"
@@ -39,6 +40,7 @@ function Footer() {
                 <FaTwitterSquare />
               </a>
             </li>
+
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/bfguo/"
@@ -47,6 +49,17 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedin />
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/petguo/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaInstagramSquare />
               </a>
             </li>
           </ul>
