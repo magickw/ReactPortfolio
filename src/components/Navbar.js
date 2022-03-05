@@ -6,12 +6,9 @@ import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 //imports icons
 import {
-  AiOutlineFundProjectionScreen,
-} from "react-icons/ai";
-
-import {
   ImHome,
   ImUser,
+  ImBriefcase,
   ImProfile,
   ImQuill,
 } from "react-icons/im";
@@ -74,7 +71,7 @@ function NavBar() {
                 to="/projects"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <ImBriefcase
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
