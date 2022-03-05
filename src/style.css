@@ -338,7 +338,7 @@ html {
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
 }
-.footer-copywright {
+.footer-author {
   text-align: center !important;
 }
 
@@ -347,7 +347,7 @@ html {
 }
 
 @media (max-width: 767px) {
-  .footer-copywright {
+  .footer-author {
     text-align: center !important;
   }
 

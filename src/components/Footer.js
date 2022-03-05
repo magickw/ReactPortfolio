@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+//imports social icons
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -12,7 +13,7 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="6" className="footer-copywright">
+        <Col md="6" className="footer-author">
           <h3>{year} © Baofeng Guo | Thank you for visiting. </h3>
         </Col>
         <Col md="6" className="footer-body">
