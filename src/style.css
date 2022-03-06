@@ -34,18 +34,18 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #6415ec;
+  background: #efedf3;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(22, 5, 34, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(168, 42, 182, 0.911);
   border-radius: 12px;
 }
 
@@ -194,7 +194,7 @@ html {
   background-image: var(--image-gradient), url(./assets/background.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
+  padding-bottom: 10px !important;
   padding-top: 30px !important;
 }
 
@@ -220,7 +220,7 @@ html {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #4d0e66 !important;
+  color: #1153bd !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -360,9 +360,6 @@ html {
   padding: 0 !important;
 }
 
-.blockquote-footer {
-  color: #a588c0 !important;
-}
 
 /* Projects */
 
