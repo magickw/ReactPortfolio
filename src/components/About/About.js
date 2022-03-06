@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Aboutcard from "./AboutCard";
-import profileImg from "../../images/profile.jpg";
+import profileImg from "../../assets/profile.jpg";
 
 
 function About() {

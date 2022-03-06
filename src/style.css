@@ -11,10 +11,10 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #e0ee1d;
 }
 
-.purple {
+.yellow {
   color: var(--imp-text-color) !important;
 }
 
@@ -34,7 +34,7 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #6415ec;
 }
 
 /* Handle */
@@ -169,7 +169,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #d9f539;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -199,7 +199,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./images/background.jpg);
+  background-image: var(--image-gradient), url(./assets/background.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -223,17 +223,17 @@ html {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #4051e4;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #1f3de9 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #2734e2 !important;
 }
 
 @media (max-width: 767px) {

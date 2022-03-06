@@ -5,12 +5,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 //Project data
-import astroDash from "../../images/AstroDash.gif";
-import codeQuiz from "../../images/codequiz.gif";
-import weatherDashboard from "../../images/WeatherDashboard.gif";
-import scheduler from "../../images/scheduler.gif";
-import notetaker from "../../images/notetaker.gif";
-import techblog from "../../images/techblog.gif";
+import astroDash from "../../assets/AstroDash.gif";
+import codeQuiz from "../../assets/codequiz.gif";
+import weatherDashboard from "../../assets/WeatherDashboard.gif";
+import scheduler from "../../assets/scheduler.gif";
+import notetaker from "../../assets/notetaker.gif";
+import techblog from "../../assets/techblog.gif";
 
 function Projects() {
   return (
@@ -18,11 +18,8 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          <strong className="purple">Portfolio</strong>
+          <strong className="blue">Portfolio</strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard

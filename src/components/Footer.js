@@ -9,13 +9,11 @@ import {
  } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
         <Col md="6" className="footer-author">
-          <h3>{year} © Baofeng Guo | Thank you for visiting. </h3>
+          <h3>© Baofeng Guo | Thank you for visiting. </h3>
         </Col>
         <Col md="6" className="footer-body">
           <ul className="footer-icons">
