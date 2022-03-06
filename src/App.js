@@ -24,6 +24,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home/>} />
+          <Route path="/ReactPortfolio" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/skills" element={<Skills/>} />
           <Route path="/projects" element={<Projects/>} />
@@ -36,38 +37,5 @@ function App() {
   );
 }
 
-// export default App;
-// function App () {
-//   const [currentPage, setCurrentPage] = useState('Home');
-
-//   const renderPage = () => {
-//     if (currentPage === 'Home') {
-//       return <Home />;
-//     }
-//     if (currentPage === 'About') {
-//       return <About />;
-//     }
-//     if (currentPage === 'Skills') {
-//       return <Skills />;
-//     }
-//     if (currentPage === 'Projects') {
-//       return <Projects />;
-//     }
-//     if (currentPage === 'Resume') {
-//       return <Resume />;
-//     }
-//   };
-
-//   const handlePageChange = (page) => setCurrentPage(page);
-
-
-//   return (
-//     <div>
-//       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-//       {renderPage()}
-//       <Footer />
-//     </div>
-//   );
-// }
 
 export default App;

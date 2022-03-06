@@ -487,8 +487,8 @@ html {
 }
 
 .resume {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   justify-content: center;
 }
 
@@ -499,8 +499,8 @@ html {
 .resume {
   font-size: 2em;
   font-weight: 700;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 

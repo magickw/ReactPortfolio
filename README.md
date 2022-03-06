@@ -40,7 +40,7 @@ For deployment on Github, just add `https://yourusername.github.io/app-name` to 
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
 
-Run `npm start` to deploy the application to Github.  
+Run `npm start deploy` to deploy the application to Github.  
 
 
 ## Deployed Link

@@ -53,10 +53,9 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
+            
               {/* navbar items */}
             <Nav.Item>
-
-            
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <ImHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
