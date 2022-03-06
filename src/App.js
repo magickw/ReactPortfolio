@@ -1,6 +1,6 @@
 //dependencies
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 
 //components
 import Navbar from "./components/Navbar";
@@ -10,6 +10,8 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./style.css";
 import "./App.css";
@@ -21,11 +23,11 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/resume" component={Resume} />
+          <Route path="/" exact element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/skills" element={<Skills/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/resume" element={<Resume/>} />
         </Routes>
         <Footer />
       </div>
@@ -34,5 +36,38 @@ function App() {
   );
 }
 
+// export default App;
+// function App () {
+//   const [currentPage, setCurrentPage] = useState('Home');
+
+//   const renderPage = () => {
+//     if (currentPage === 'Home') {
+//       return <Home />;
+//     }
+//     if (currentPage === 'About') {
+//       return <About />;
+//     }
+//     if (currentPage === 'Skills') {
+//       return <Skills />;
+//     }
+//     if (currentPage === 'Projects') {
+//       return <Projects />;
+//     }
+//     if (currentPage === 'Resume') {
+//       return <Resume />;
+//     }
+//   };
+
+//   const handlePageChange = (page) => setCurrentPage(page);
+
+
+//   return (
+//     <div>
+//       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+//       {renderPage()}
+//       <Footer />
+//     </div>
+//   );
+// }
 
 export default App;

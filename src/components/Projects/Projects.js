@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={astroDash}
+              img_path={astroDash}
               title="AstroDash"
               description="CodeQuiz is a timed coding quiz with multiple-choice questions."
               repo_url="https://github.com/DazedChou/Astronomy-Dashboard"
@@ -33,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={codeQuiz}
+              img_path={codeQuiz}
               title="CodeQuiz"
               description="CodeQuiz is a timed coding quiz with multiple-choice questions."
               repo_url="https://github.com/magickw/CodeQuiz"
@@ -43,7 +43,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={weatherDashboard}
+              img_path={weatherDashboard}
               title="Weather Dashboard"
               description="Full-stack CMS-style blog site where developers can publish and comment, using MVC architectural structure, Handlebars.js, Sequelize, and express-session."
               repo_url="https://github.com/magickw/WeatherDashboard"
@@ -53,7 +53,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={scheduler}
+              img_path={scheduler}
               title="Weather Dashboard"
               description="It's a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS."
               repo_url="https://github.com/magickw/Work-Day-Scheduler"
@@ -63,7 +63,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={notetaker}
+              img_path={notetaker}
               title="Note Taker"
               description="This application allows you to write notes, save notes and deletes that are being stored in a db.json file."
               repo_url="https://github.com/magickw/NoteTaker"
@@ -73,7 +73,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={techblog}
+              img_path={techblog}
               title="Tech Blog"
               description="This application is a tech blog which allows the developers to publish blog posts, make comments and create accounts using MVC architectural structure, Handlebars.js, Sequelize."
               repo_url="https://github.com/magickw/MVCTechBlog"

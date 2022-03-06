@@ -36,7 +36,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-      <Navbar.Brand href="/">
+      <Navbar.Brand as={Link} to="/" onClick={() => updateExpanded(false)}>
                <h3 className="nav-header underline" alt="header">BAOFENG GUO</h3>
             </Navbar.Brand>
 
