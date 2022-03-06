@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
-import Particle from "../Particle";
 //Imports tech icons
 import {
   DiHtml5,
@@ -16,11 +15,10 @@ import {
 function Skills () {
   return (
     <Container fluid className="skill-section">
-      <Particle />
       <Container>
         <Row>
         <h1 className="skill-heading">
-          <strong className="blue">Skills</strong>
+          <strong className="white">Skills</strong>
         </h1>
         </Row>
         

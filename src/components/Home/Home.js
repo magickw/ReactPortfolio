@@ -1,17 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../assets/profile.jpg";
-import Particle from "../Particle";
 import Type from "./Type";
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={8} className="home-header">
+            <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello! Welcome to My Portfolio Website.
               </h1>
@@ -25,7 +23,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={4} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20 }}>
               <img src={profileImg} alt="profile" className="img-fluid"/>
             </Col>
           </Row>

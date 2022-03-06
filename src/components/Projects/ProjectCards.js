@@ -14,7 +14,7 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.repo_url} target="_blank">
           <BiLinkExternal /> View Repo
-        </Button> | 
+        </Button>  
         
         <Button variant="primary" href={props.deployed_url} target="_blank">
           <BiLinkExternal /> View App

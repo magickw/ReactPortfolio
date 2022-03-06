@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //components
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 
 //Project data
 import astroDash from "../../assets/AstroDash.gif";
@@ -15,7 +14,6 @@ import techblog from "../../assets/techblog.gif";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           <strong className="blue">Portfolio</strong>

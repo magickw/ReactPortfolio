@@ -184,14 +184,6 @@ html {
 /* Home section */
 
 
-#tsparticles {
-  position: fixed !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
-}
-
 .home-header {
   padding-top: 80px !important;
 }
@@ -199,7 +191,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  /* background-image: var(--image-gradient), url(./assets/background.jpg); */
+  background-image: var(--image-gradient), url(./assets/background.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -223,7 +215,7 @@ html {
 }
 
 .official-name {
-  color: #4051e4;
+  color: #ce6119;
 }
 
 .Typewriter__wrapper {
@@ -233,7 +225,7 @@ html {
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #a30bc2 !important;
+  color: #d2c4d4 !important;
 }
 
 @media (max-width: 767px) {
@@ -409,6 +401,8 @@ html {
   color: #fff !important;
   background-color: #623686 !important;
   border-color: #623686 !important;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .btn-primary:hover {
@@ -440,6 +434,13 @@ html {
 }
 
 /* Skills */
+.skill-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
 .skill-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
@@ -474,4 +475,35 @@ html {
   .about-img {
     padding-top: 0 !important;
   }
+}
+
+/* Resume */
+
+
+.resume-section {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.resume {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+
+
+@media (max-width: 767px) {
+  
+.resume {
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
 }
