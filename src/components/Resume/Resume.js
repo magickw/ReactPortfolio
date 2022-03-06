@@ -7,7 +7,9 @@ import cv from "../../assets/cv.pdf";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
 function Resume() {
+
   const resumeLink = "https://github.com/magickw/ReactPortfolio/blob/main/src/assets/cv.pdf";
+  
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {

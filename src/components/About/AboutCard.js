@@ -13,7 +13,6 @@ function AboutCard() {
             <br />
             <br />
           </p>
-          <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card.Body>
     </Card>

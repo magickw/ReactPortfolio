@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import {
   ImHome,
   ImUser,
+  ImList,
   ImBriefcase,
   ImProfile,
   ImQuill,
@@ -35,6 +36,10 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
+      <Navbar.Brand href="/">
+               <h3 className="nav-header underline" alt="header">BAOFENG GUO</h3>
+            </Navbar.Brand>
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -50,6 +55,8 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
               {/* navbar items */}
             <Nav.Item>
+
+            
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <ImHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
@@ -68,13 +75,20 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <ImList style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/projects"
                 onClick={() => updateExpanded(false)}
               >
-                <ImBriefcase
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                <ImBriefcase style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 
