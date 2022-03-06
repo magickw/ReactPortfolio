@@ -6,8 +6,6 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 
 function Resume() {
 
-  const resumeLink = "https://github.com/magickw/ReactPortfolio/blob/main/src/assets/cv.pdf";
-  
 
   return (
     <Container fluid className="resume-section">
@@ -22,7 +20,7 @@ function Resume() {
 
         <embed
           className="resume"
-          src={resumeLink}
+          src={cv}
           width="600"
           height="700"
         ></embed>
