@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.63f41875.css",
-    "main.js": "/ReactPortfolio/static/js/main.e9a338ac.js",
-    "static/js/415.1c9a1fba.chunk.js": "/ReactPortfolio/static/js/415.1c9a1fba.chunk.js",
-    "static/js/787.2f3127df.chunk.js": "/ReactPortfolio/static/js/787.2f3127df.chunk.js",
-    "static/media/AstroDash.gif": "/ReactPortfolio/static/media/AstroDash.5c2ba4c7ab04033bb4a6.gif",
-    "static/media/techblog.gif": "/ReactPortfolio/static/media/techblog.b526ac9e04da59472d33.gif",
-    "static/media/notetaker.gif": "/ReactPortfolio/static/media/notetaker.cbc874cc2e76ed2bd400.gif",
-    "static/media/WeatherDashboard.gif": "/ReactPortfolio/static/media/WeatherDashboard.0853ad4100a90f4fa129.gif",
-    "static/media/codequiz.gif": "/ReactPortfolio/static/media/codequiz.e0acd181ca876004ac9a.gif",
-    "static/media/cv.pdf": "/ReactPortfolio/static/media/cv.8c071e4d298d238ac889.pdf",
-    "static/media/profile.jpg": "/ReactPortfolio/static/media/profile.d768b502ac941fdef43e.jpg",
-    "static/media/scheduler.gif": "/ReactPortfolio/static/media/scheduler.94fb6a5509463992ef65.gif",
-    "index.html": "/ReactPortfolio/index.html",
-    "main.63f41875.css.map": "/ReactPortfolio/static/css/main.63f41875.css.map",
-    "main.e9a338ac.js.map": "/ReactPortfolio/static/js/main.e9a338ac.js.map",
-    "415.1c9a1fba.chunk.js.map": "/ReactPortfolio/static/js/415.1c9a1fba.chunk.js.map",
-    "787.2f3127df.chunk.js.map": "/ReactPortfolio/static/js/787.2f3127df.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.ef320037.css",
+    "main.js": "/portfolio/static/js/main.881a56db.js",
+    "static/js/787.2f3127df.chunk.js": "/portfolio/static/js/787.2f3127df.chunk.js",
+    "static/media/AstroDash.gif": "/portfolio/static/media/AstroDash.5c2ba4c7ab04033bb4a6.gif",
+    "static/media/techblog.gif": "/portfolio/static/media/techblog.b526ac9e04da59472d33.gif",
+    "static/media/notetaker.gif": "/portfolio/static/media/notetaker.cbc874cc2e76ed2bd400.gif",
+    "static/media/WeatherDashboard.gif": "/portfolio/static/media/WeatherDashboard.0853ad4100a90f4fa129.gif",
+    "static/media/codequiz.gif": "/portfolio/static/media/codequiz.e0acd181ca876004ac9a.gif",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.8c071e4d298d238ac889.pdf",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.d768b502ac941fdef43e.jpg",
+    "static/media/scheduler.gif": "/portfolio/static/media/scheduler.94fb6a5509463992ef65.gif",
+    "static/media/background.jpg": "/portfolio/static/media/background.d2b82e07f39e70806e4c.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.ef320037.css.map": "/portfolio/static/css/main.ef320037.css.map",
+    "main.881a56db.js.map": "/portfolio/static/js/main.881a56db.js.map",
+    "787.2f3127df.chunk.js.map": "/portfolio/static/js/787.2f3127df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63f41875.css",
-    "static/js/main.e9a338ac.js"
+    "static/css/main.ef320037.css",
+    "static/js/main.881a56db.js"
   ]
 }
