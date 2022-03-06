@@ -199,7 +199,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./assets/background.jpg);
+  /* background-image: var(--image-gradient), url(./assets/background.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -222,7 +222,7 @@ html {
   padding-left: 45px !important;
 }
 
-.main-name {
+.official-name {
   color: #4051e4;
 }
 
@@ -463,17 +463,12 @@ html {
 
 
 
-.quote-card-view {
+.aboutme-card-view {
   border: none !important;
   color: white !important;
   background-color: transparent !important;
 }
 
-.about-activity {
-  list-style: none !important;
-  text-align: left !important;
-  padding-left: 1px !important;
-}
 
 @media (max-width: 767px) {
   .about-img {

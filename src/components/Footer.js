@@ -12,10 +12,10 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="6" className="footer-author">
+        <Col md={6} className="footer-author">
           <h3>© Baofeng Guo | Thank you for visiting. </h3>
         </Col>
-        <Col md="6" className="footer-body">
+        <Col md={6} className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a

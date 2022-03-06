@@ -11,13 +11,13 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={8} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello! Welcome to My Portfolio Website.
               </h1>
 
               <h1 className="heading-name">
-                I'M <strong className="main-name"> BAOFENG GUO</strong>
+                I'M <strong className="official-name">BAOFENG GUO</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -25,8 +25,8 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={profileImg} alt="profile image" className="img-fluid" style="width:160px;border-radius:50%"/>
+            <Col md={4} style={{ paddingBottom: 20 }}>
+              <img src={profileImg} alt="profile-img" className="img-fluid"/>
             </Col>
           </Row>
         </Container>

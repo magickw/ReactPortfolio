@@ -1,5 +1,5 @@
 //dependencies
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 //components
@@ -15,24 +15,11 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import ScrollToTop from "./components/ScrollToTop";
-
 function App() {
-  const [load, upadateLoad] = useState(true);
-  
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      upadateLoad(false);
-    }, 1200);
-    
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <Router>
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="App">
         <Navbar />
-        <ScrollToTop />
         <Routes>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
