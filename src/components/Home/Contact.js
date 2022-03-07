@@ -28,7 +28,7 @@ function Contact() {
                   href="https://github.com/magickw"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="home-social-icons"
                 >
                   <FaGithubSquare />
                 </a>
@@ -38,7 +38,7 @@ function Contact() {
                   href="https://twitter.com/bfguo"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="home-social-icons"
                 >
                   <FaTwitterSquare />
                 </a>
@@ -48,7 +48,7 @@ function Contact() {
                   href="https://www.linkedin.com/in/bfguo/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="home-social-icons"
                 >
                   <FaLinkedin />
                 </a>
@@ -56,7 +56,7 @@ function Contact() {
               <li className="social-icons">
                 <a
                   href="mailto:peteguo1983@gmail.com"
-                  className="icon-colour home-social-icons"
+                  className="home-social-icons"
                 >
                   <ImEnvelop />
                 </a>

@@ -257,7 +257,7 @@ html {
 
 .home-contact-body {
   padding-top: 50px;
-  font-size: 1.5em !important;
+  font-size: 1.2em !important;
   text-align: left;
 }
 
@@ -278,13 +278,13 @@ html {
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
-  width: 35px !important;
-  height: 35px !important;
+  width: 40px !important;
+  height: 40px !important;
   text-align: center !important;
   font-size: 1.5em !important;
   line-height: 2em !important;
-  background: rgba(223, 186, 186, 0.972) !important;
-  border-radius: 10% !important;
+  background: rgba(182, 235, 236, 0.972) !important;
+  border-radius: 50% !important;
   transition: 0.5s !important;
 }
 

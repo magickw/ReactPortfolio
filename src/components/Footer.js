@@ -10,6 +10,7 @@ import {
 
 function Footer() {
   return (
+    <Container fluid className="home-contact-section" id="contact">
     <Container fluid className="footer">
       <Row>
         <Col md={6} className="footer-author">
@@ -63,6 +64,7 @@ function Footer() {
           </ul>
         </Col>
       </Row>
+    </Container>
     </Container>
   );
 }
