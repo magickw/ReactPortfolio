@@ -400,8 +400,7 @@ html {
   color: #fff !important;
   background-color: #623686 !important;
   border-color: #623686 !important;
-  padding-right: 15px;
-  padding-left: 15px;
+  margin: 10px;
 }
 
 .btn-primary:hover {

@@ -16,7 +16,7 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          <strong className="blue">Portfolio</strong>
+          Recent <strong className="yellow">Work</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
