@@ -23,7 +23,7 @@ function Projects() {
             <ProjectCard
               img_path={astroDash}
               title="AstroDash"
-              description="CodeQuiz is a timed coding quiz with multiple-choice questions."
+              description="Astronomy Dashboard uses geolocation functions and weather API to present the weather conditions such as visibility and cloudiness, and moon phases."
               repo_url="https://github.com/DazedChou/Astronomy-Dashboard"
               deployed_url="https://dazedchou.github.io/Astronomy-Dashboard/"
             />
@@ -43,7 +43,7 @@ function Projects() {
             <ProjectCard
               img_path={weatherDashboard}
               title="Weather Dashboard"
-              description="Full-stack CMS-style blog site where developers can publish and comment, using MVC architectural structure, Handlebars.js, Sequelize, and express-session."
+              description="It's a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS."
               repo_url="https://github.com/magickw/WeatherDashboard"
               deployed_url="https://magickw.github.io/WeatherDashboard/"
             />
@@ -52,8 +52,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               img_path={scheduler}
-              title="Weather Dashboard"
-              description="It's a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS."
+              title="Work Day Scheduler"
+              description="This simple calendar application that allows a user to save and delete events for each hour of the day."
               repo_url="https://github.com/magickw/Work-Day-Scheduler"
               deployed_url="https://magickw.github.io/Work-Day-Scheduler/"
             />
