@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Aboutcard from "./AboutCard";
 import profileImg from "../../assets/profile.jpg";
+import Skills from "./Skills";
 
 
 function About() {
@@ -32,6 +33,10 @@ function About() {
           >
               <img src={profileImg} alt="profile-img" className="img-fluid" />
             </Col>
+        </Row>
+
+        <Row>
+        <Skills />
         </Row>
       </Container>
     </Container>

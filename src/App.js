@@ -6,7 +6,6 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer";
@@ -26,7 +25,6 @@ function App() {
           <Route path="/" exact element={<Home/>} />
           <Route path="/ReactPortfolio" element={<Home/>} />
           <Route path="/about" element={<About/>} />
-          <Route path="/skills" element={<Skills/>} />
           <Route path="/projects" element={<Projects/>} />
           <Route path="/resume" element={<Resume/>} />
         </Routes>

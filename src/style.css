@@ -62,6 +62,7 @@ html {
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
+  display: flex;
   float: right !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
@@ -201,7 +202,7 @@ html {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: rgb(33, 202, 47);
+  color: rgb(158, 22, 151);
   text-align: left;
 }
 
@@ -221,7 +222,7 @@ html {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #1153bd !important;
+  color: #ce6119 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -280,7 +281,7 @@ html {
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
-  font-size: 1.2em !important;
+  font-size: 1.5em !important;
   line-height: 2em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
@@ -429,12 +430,15 @@ html {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+
 }
+
+
 
 /* Skills */
 .skill-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
