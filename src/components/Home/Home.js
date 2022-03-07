@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../assets/profile.jpg";
 import Type from "./Type";
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -26,6 +27,10 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img src={profileImg} alt="profile" className="img-fluid"/>
             </Col>
+          </Row>
+          
+          <Row>
+             <Contact />
           </Row>
         </Container>
       </Container>
