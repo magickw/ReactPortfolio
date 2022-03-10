@@ -47,8 +47,9 @@ Run `npm start deploy` to deploy the application to Github.
 The link to the deployed application is: https://magickw.github.io/ReactPortfolio/.
 
 ## Demo
-Below is the demostration of this application.
-<img src="public/images/portfolio.gif" alt="demo" />
+Below is the demostration of this application. Click <a href="public/images/portfolio.gif">here</a> for a walk-through video in higher definitions.
+
+<img src="public/images/demo.gif" alt="demo" />
 
 
 **[⬆ back to top](#table-of-contents)**
