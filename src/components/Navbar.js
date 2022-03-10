@@ -48,7 +48,7 @@ function NavBar() {
           <span></span>
           <span></span>
           <span></span>
-        {/* toggle to burger menue on small screen device */}
+        {/* toggle to burger menu on small screen devices */}
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">

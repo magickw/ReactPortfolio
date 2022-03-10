@@ -22,10 +22,9 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               About <strong className="yellow">Me</strong>
             </h1>
-
             <Aboutcard />
-
           </Col>
+          
           {/* right side */}
           <Col md={5}
             style={{ paddingTop: "100px", paddingBottom: "50px" }}
@@ -34,7 +33,6 @@ function About() {
               <img src={profileImg} alt="profile-img" className="img-fluid" />
             </Col>
         </Row>
-
         <Row>
         <Skills />
         </Row>
