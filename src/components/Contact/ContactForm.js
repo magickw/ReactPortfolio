@@ -27,6 +27,7 @@ const ContactForm = () => {
       target="_blank"
     >
       <div className="form-group">
+        <h5 className="form-group-heading text-left">Name</h5>
         <input
           type="text"
           placeholder="Enter your name"
@@ -36,6 +37,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="form-group">
+      <h5 className="form-group-heading text-left">Email</h5>
         <input
           type="email"
           placeholder="Enter your Email"
@@ -45,6 +47,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="form-group">
+      <h5 className="form-group-heading text-left">Message</h5>
         <textarea
           placeholder="Enter your message"
           name="message"

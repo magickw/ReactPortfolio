@@ -18,6 +18,7 @@ function Contact() {
      useEffect(() => {
      }, []);
      return (
+      <section>
       <Container fluid className="contact-section">
       <Row style={{ justifyContent: "center", padding: "10px" }}>
           {/* left side */}
@@ -27,7 +28,7 @@ function Contact() {
             <Col
             md={5}
             style={{
-              justifyContent: "center",
+              justifyContent: "end",
               paddingTop: "30px",
               paddingBottom: "50px",
             }}
@@ -62,7 +63,7 @@ function Contact() {
           </Col>
           
           {/* right side */}
-          <Col md={7}
+          <Col md={5}
             style={{ paddingTop: "100px", paddingBottom: "50px" }}
             className="contact-form"
           >
@@ -70,6 +71,7 @@ function Contact() {
             </Col>
         </Row>
          </Container>
+         </section>
 
      );
    }

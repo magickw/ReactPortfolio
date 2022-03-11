@@ -241,32 +241,33 @@ html {
 }
 
 
-.home-contact-section {
+.contact-section {
   position: relative;
   padding-bottom: 100px !important;
   padding-top: 100px !important;
+  background-image: var(--section-background-color) !important;
 }
 
-.home-contact-description {
+.contact-description {
   color: rgb(233, 230, 79) !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
 }
 
-.home-contact-body {
+.contact-body {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
 }
 
-.home-contact-social {
+.contact-social {
   text-align: center !important;
   padding-top: 25px;
   color: white !important;
 }
 
-.home-contact-social-links {
+.contact-social-links {
   justify-content: center !important;
   padding-top: 15px !important;
   display: inline-block !important;
@@ -417,7 +418,7 @@ html {
   position: relative !important;
   padding-top: 50px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
 }
 
 .skill-icons {

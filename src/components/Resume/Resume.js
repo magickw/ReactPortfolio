@@ -9,7 +9,7 @@ function Resume() {
     <Container fluid className="resume-section">
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={cv} target="_blank">
+          <Button className="btn btn-primary" href={cv} target="_blank">
             <FaCloudDownloadAlt />
             &nbsp;Download CV
           </Button>
@@ -23,7 +23,7 @@ function Resume() {
         ></embed>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={cv} target="_blank">
+          <Button className="btn btn-primary" href={cv} target="_blank">
             <FaCloudDownloadAlt />
             &nbsp;Download CV
           </Button>
