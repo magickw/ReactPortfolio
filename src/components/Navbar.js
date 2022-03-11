@@ -10,7 +10,8 @@ import {
   ImUser,
   ImBriefcase,
   ImProfile,
-  ImQuill,
+  ImPhone,
+  ImBlog,
 } from "react-icons/im";
 
 function NavBar() {
@@ -93,11 +94,21 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <ImPhone style={{ marginBottom: "2px" }} /> Contact
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
                 href="https://medium.com/@peterguo1983"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImQuill style={{ marginBottom: "2px" }} /> Blog
+                <ImBlog style={{ marginBottom: "2px" }} /> Blog
               </Nav.Link>
             </Nav.Item>
 

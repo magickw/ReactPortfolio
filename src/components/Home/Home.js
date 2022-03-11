@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../assets/profile.jpg";
 import Type from "./Type";
-import Contact from "./Contact";
 
 function Home() {
   return (
@@ -29,9 +28,6 @@ function Home() {
             </Col>
           </Row>
           
-          <Row>
-             <Contact />
-          </Row>
         </Container>
       </Container>
     </section>
