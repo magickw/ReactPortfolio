@@ -12,15 +12,27 @@ import {
    } from "react-icons/im";
 
 import React, { useState, useEffect } from "react";
-import Form from "./Form";
+import ContactForm from "./ContactForm";
 
 function Contact() {
      useEffect(() => {
      }, []);
      return (
-       <section className="row" id="contact">
-         <div className="col-md-5 d-flex flex-column" id="contact-info">
-           <h4>
+      <Container fluid className="contact-section">
+      <Row style={{ justifyContent: "center", padding: "10px" }}>
+          {/* left side */}
+         <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Connect <strong className="yellow">Me</strong>
+            </h1>
+            <Col
+            md={5}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h4>
              <a
                href="https://www.linkedin.com/in/bfguo/"
                rel="noreferrer"
@@ -47,19 +59,18 @@ function Contact() {
              ><ImEnvelop />Email
              </a>
              </h4>
-       
-         </div>
-   
-         <div className="col-md-5">
-         <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Connect <strong className="yellow">Me</strong>
-            </h1>
-   
-           <div>
-             {/* <Form /> */}
-           </div>
-         </div>
-       </section>
+          </Col>
+          
+          {/* right side */}
+          <Col md={7}
+            style={{ paddingTop: "100px", paddingBottom: "50px" }}
+            className="contact-form"
+          >
+              <ContactForm />
+            </Col>
+        </Row>
+         </Container>
+
      );
    }
 export default Contact;
