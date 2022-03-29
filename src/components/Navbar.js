@@ -39,30 +39,30 @@ function NavBar() {
       <Navbar.Brand as={Link} to="/" onClick={() => updateExpanded(false)}>
                <h3 className="nav-header underline" alt="header">BAOFENG GUO</h3>
             </Navbar.Brand>
-
+        {/* toggle to burger menu on small screen devices */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span></span>
-          <span></span>
-          <span></span>
-        {/* toggle to burger menu on small screen devices */}
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
-            
               {/* navbar items */}
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+              className="nav-item"
+              as={Link}
+              to="/"
+              onClick={() => updateExpanded(false)}>
                 <ImHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
+              className="nav-item"
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
@@ -74,6 +74,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+              className="nav-item"
                 as={Link}
                 to="/projects"
                 onClick={() => updateExpanded(false)}
@@ -84,6 +85,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+              className="nav-item"
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
@@ -94,6 +96,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+              className="nav-item"
                 as={Link}
                 to="/contact"
                 onClick={() => updateExpanded(false)}
@@ -104,6 +107,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+              className="nav-item"
                 href="https://medium.com/@peterguo1983"
                 target="_blank"
                 rel="noreferrer"

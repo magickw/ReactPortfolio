@@ -19,10 +19,10 @@ html {
 }
 
 
-/* #no-scroll {
+#no-scroll {
   overflow: hidden;
   height: 100vh;
-} */
+}
 
 
 /*Scrollbar   */
@@ -62,7 +62,7 @@ html {
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  display: flex;
+  display: flex !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
 }
@@ -141,9 +141,6 @@ html {
   padding-left: 1rem !important;
 }
 
-.nav-link {
-  padding: 0.8rem 1rem !important;
-}
 
 @media (max-width: 767px) {
   .nav-link {
@@ -153,7 +150,8 @@ html {
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 20px;
+  display: flex-end;
+  margin-left: 30px;
 }
 
 .navbar-nav .nav-item a {
