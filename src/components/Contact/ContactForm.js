@@ -1,31 +1,16 @@
-import React, { useState } from "react";
-
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm = () => {
-  const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = () => {
-    setTimeout(() => {
-      setSubmitted(true);
-    }, 100);
-  };
-
-  if (submitted) {
-    return (
-      <>
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
-      </>
-    );
+  const [state, handleSubmit] = useForm("xzboaajb");
+  if (state.succeeded) {
+      return <p>Thank you! We'll be in touch soon.</p>;
   }
 
+ 
+
   return (
-    <form
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      method="POST"
-      target="_blank"
-    >
+    <form onSubmit={handleSubmit}>
       <div className="form-group">
         <h5 className="form-group-heading text-left">Name</h5>
         <input
@@ -43,8 +28,12 @@ const ContactForm = () => {
           placeholder="Enter your Email"
           name="email"
           className="form-control"
-          required
         />
+        <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
       </div>
       <div className="form-group">
       <h5 className="form-group-heading text-left">Message</h5>
@@ -52,13 +41,18 @@ const ContactForm = () => {
           placeholder="Enter your message"
           name="message"
           className="form-control"
-          required
         />
+        <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
       </div>
       <div className="form-group">
         <button
           className="btn btn-primary"
           type="submit"
+          disabled={state.submitting}
         >
           Send a message
         </button>

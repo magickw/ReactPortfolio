@@ -17,11 +17,11 @@ import ContactForm from "./ContactForm";
 function Contact() {
      useEffect(() => {
      }, []);
+
      return (
       <section>
       <Container fluid className="contact-section">
-      <Row style={{ justifyContent: "center", padding: "10px" }}>
-          {/* left side */}
+      <Row style={{ justifyContent: "left", padding: "10px" }}>
          <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Connect <strong className="yellow">Me</strong>
             </h1>
@@ -57,7 +57,7 @@ function Contact() {
                href="mailto:peterguo1983@gmail.com"
                rel="noreferrer"
                target="_blank"
-             ><ImEnvelop />Email
+             ><ImEnvelop /> Email
              </a>
              </h4>
           </Col>
