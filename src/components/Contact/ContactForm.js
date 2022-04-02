@@ -7,8 +7,6 @@ const ContactForm = () => {
       return <p>Thank you! We'll be in touch soon.</p>;
   }
 
- 
-
   return (
     <form onSubmit={handleSubmit}>
       <div className="form-group">

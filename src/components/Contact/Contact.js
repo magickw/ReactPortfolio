@@ -11,7 +11,7 @@ import {
     ImEnvelop
    } from "react-icons/im";
 
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import ContactForm from "./ContactForm";
 
 function Contact() {
@@ -21,8 +21,9 @@ function Contact() {
      return (
       <section>
       <Container fluid className="contact-section">
-      <Row style={{ justifyContent: "left", padding: "10px" }}>
-         <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+
+      <Row style={{ justifyContent: "center", padding: "10px" }}>
+      <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Connect <strong className="yellow">Me</strong>
             </h1>
             <Col
@@ -33,6 +34,7 @@ function Contact() {
               paddingBottom: "50px",
             }}
           >
+            <h3 className="title-left">Get in Touch</h3>
             <h4>
              <a
                href="https://www.linkedin.com/in/bfguo/"

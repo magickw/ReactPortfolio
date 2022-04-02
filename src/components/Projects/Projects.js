@@ -10,7 +10,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading">
+        <h1 className="project-heading text-center">
           Recent <strong className="yellow">Work</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
