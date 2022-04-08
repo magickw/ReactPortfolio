@@ -14,8 +14,8 @@ function Projects() {
           Recent <strong className="yellow">Work</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
                {projectData.map(project => (
+                 <Col md={4} className="project-card">
                 <ProjectCard
                 key={project.id}
               title={project.title}
@@ -24,8 +24,8 @@ function Projects() {
               deployed_url={project.deployed_url}
               img_path={project.img_path}
                 />
-                ))}
           </Col>
+ ))}
         </Row>
       </Container>
     </Container>
