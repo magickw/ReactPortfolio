@@ -51,7 +51,6 @@ html {
 
 
 /* Navbar Section  */
-/* The !important rule in CSS is used to add more importance to a property/value than normal. */
 .sticky {
   background-color: #2e859bd8 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -62,7 +61,8 @@ html {
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  display: flex !important;
+  display: flex-end !important;
+  float: right !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
 }
@@ -150,8 +150,8 @@ html {
 
 .navbar-nav .nav-item {
   position: relative;
-  display: flex-end;
-  margin-left: 30px;
+  float: right;
+  margin-left: 25px;
 }
 
 .navbar-nav .nav-item a {

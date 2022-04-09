@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //components
-import ProjectCard from "./ProjectCards";
+import ProjectCards from "./ProjectCards";
 import projectData from './ProjectData';
 
 
@@ -16,7 +16,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                {projectData.map(project => (
                  <Col md={4} className="project-card">
-                <ProjectCard
+                <ProjectCards
                 key={project.id}
               title={project.title}
               description={project.description}
