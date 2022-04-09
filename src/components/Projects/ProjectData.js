@@ -1,7 +1,7 @@
 const projectData = [
     {
       id: 1,
-      img_path: "./src/assets/AstroDash.gif",
+      img_path: "../../assets/AstroDash.gif",
       title: "AstroDash",
       description: "Astronomy Dashboard uses geolocation functions and weather API to present the weather conditions such as visibility and cloudiness, and moon phases.",
       repo_url: "https://github.com/DazedChou/Astronomy-Dashboard",
