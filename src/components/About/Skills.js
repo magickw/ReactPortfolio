@@ -7,9 +7,15 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiMysql,
   DiGit,
+  DiHeroku
 } from "react-icons/di";
+
+import { SiMysql } from "react-icons/si";
+
+import { 
+  BsFillBootstrapFill
+} from "react-icons/bs";
 
 
 function Skills () {
@@ -39,10 +45,16 @@ function Skills () {
         <DiMongodb />
       </Col>
       <Col xs={6} md={3} className="skill-icons">
-        <DiMysql />
+        <SiMysql />
       </Col>
       <Col xs={6} md={3} className="skill-icons">
         <DiGit />
+      </Col>
+      <Col xs={6} md={3} className="skill-icons">
+        <DiHeroku />
+      </Col>
+      <Col xs={6} md={3} className="skill-icons">
+        <BsFillBootstrapFill />
       </Col>
     </Row>
       </Container>
