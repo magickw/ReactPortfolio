@@ -11,7 +11,10 @@ import {
   DiHeroku
 } from "react-icons/di";
 
-import { SiMysql } from "react-icons/si";
+import {
+  SiMysql,
+  SiTailwindcss,
+} from "react-icons/si";
 
 import { 
   BsFillBootstrapFill
@@ -21,7 +24,6 @@ import {
 function Skills () {
   return (
     <Container fluid className="skill-section">
-      <Container>
         <Row>
         <h1 className="skill-heading">
           <strong className="white">Skills</strong>
@@ -56,8 +58,10 @@ function Skills () {
       <Col xs={6} md={3} className="skill-icons">
         <BsFillBootstrapFill />
       </Col>
+      <Col xs={6} md={3} className="skill-icons">
+        <SiTailwindcss />
+      </Col>
     </Row>
-      </Container>
     </Container>
   );
 }

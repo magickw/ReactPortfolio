@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../assets/profile.jpg";
 import Type from "./Type";
 
+import emoji from "react-easy-emoji";
+
 function Home() {
   return (
     <section>
@@ -11,7 +13,8 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!
+                Hi There!{" "}
+                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
 
               <h1 className="heading-name">
