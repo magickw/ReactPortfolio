@@ -62,7 +62,7 @@ html {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   /* display: flex-end !important; */
-  float: right !important;
+  /* float: right !important; */
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
 }
@@ -404,6 +404,7 @@ html {
 
 .about-section {
   position: relative !important;
+  text-align: center !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;

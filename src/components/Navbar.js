@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-
 import { Link } from "react-router-dom";
 //imports icons
 import {
@@ -37,7 +36,7 @@ function NavBar() {
     >
       <Container>
       <Navbar.Brand as={Link} to="/" onClick={() => updateExpanded(false)}>
-               <h3 className="nav-header underline" alt="header">BAOFENG GUO</h3>
+               <h3 className="nav-header" alt="header">BAOFENG GUO</h3>
             </Navbar.Brand>
         {/* toggle to burger menu on small screen devices */}
         <Navbar.Toggle

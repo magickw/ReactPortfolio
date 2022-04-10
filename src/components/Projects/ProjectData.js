@@ -1,7 +1,7 @@
 const projectData = [
     {
       id: 1,
-      img_path: "src/assets/AstroDash.gif",
+      image_path: "src/assets/AstroDash.gif",
       title: "AstroDash",
       description: "Astronomy Dashboard uses geolocation functions and weather API to present the weather conditions such as visibility and cloudiness, and moon phases.",
       repo_url: "https://github.com/DazedChou/Astronomy-Dashboard",
@@ -9,7 +9,7 @@ const projectData = [
     },
     {
       id: 2,
-      img_path: "src/assets/codequiz.gif",
+      image_path: "src/assets/codequiz.gif",
       title: "CodeQuiz",
       description: "CodeQuiz is a timed coding quiz with multiple-choice questions.",
       repo_url: "https://github.com/magickw/CodeQuiz",
@@ -17,7 +17,7 @@ const projectData = [
     },
     {
       id: 3,
-        img_path: "src/assets/WeatherDashboard.gif",
+        image_path: "src/assets/WeatherDashboard.gif",
         title: "Weather Dashboard",
         description: "It's a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
         repo_url: "https://github.com/magickw/WeatherDashboard",
@@ -25,7 +25,7 @@ const projectData = [
       },
       {
         id: 4,
-        img_path: "src/assets/scheduler.gif",
+        image_path: "src/assets/scheduler.gif",
         title: "Work Day Scheduler",
         description: "This simple calendar application that allows a user to save and delete events for each hour of the day.",
         repo_url: "https://github.com/magickw/Work-Day-Scheduler",
@@ -33,7 +33,7 @@ const projectData = [
       },
       {
         id: 5,
-        img_path: "src/assets/notetaker.gif",
+        image_path: "src/assets/notetaker.gif",
         title: "Note Taker",
         description: "This application allows you to write notes, save notes and deletes that are being stored in a db.json file.",
         repo_url: "https://github.com/magickw/NoteTaker",
@@ -41,7 +41,7 @@ const projectData = [
       },
       {
         id: 6,
-        img_path: "src/assets/techblog.gif",
+        image_path: "src/assets/techblog.gif",
         title: "Tech Blog",
         description: "This application is a tech blog which allows the developers to publish blog posts, make comments and create accounts using MVC architectural structure, Handlebars.js, Sequelize.",
         repo_url: "https://github.com/magickw/MVCTechBlog",
