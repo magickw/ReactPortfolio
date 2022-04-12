@@ -1,5 +1,13 @@
 import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import { 
+  useForm,
+  ValidationError,
+} from '@formspree/react';
+
+import {
+    ReCaptcha,
+    CheckboxGroup,
+} from "react-rainbow-components";
 
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("xzboaajb");
@@ -52,7 +60,7 @@ const ContactForm = () => {
           type="submit"
           disabled={state.submitting}
         >
-          Send a message
+          Send
         </button>
       </div>
     </form>

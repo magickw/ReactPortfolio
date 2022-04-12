@@ -39,13 +39,13 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(22, 5, 34, 0.959);
+  background: rgba(14, 1, 23, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(67, 148, 202, 0.911);
+  background: rgba(20, 99, 151, 0.911);
   border-radius: 12px;
 }
 
