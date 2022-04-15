@@ -4,10 +4,11 @@ import {
   ValidationError,
 } from '@formspree/react';
 
-import {
-    ReCaptcha,
-    CheckboxGroup,
-} from "react-rainbow-components";
+import ReCAPTCHA from "react-google-recaptcha";
+ 
+function handleOnChange(value) {
+  console.log("Captcha value:", value);
+}
 
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("xzboaajb");
@@ -53,6 +54,12 @@ const ContactForm = () => {
         field="message"
         errors={state.errors}
       />
+      </div>
+      <div className="form-group">
+      <ReCAPTCHA
+    sitekey="6LfSfWIfAAAAAJA9rB-Lcizo-T3YRHxE1OZL8lV6"
+    onChange={handleOnChange}
+  />
       </div>
       <div className="form-group">
         <button

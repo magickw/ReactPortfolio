@@ -34,7 +34,7 @@ function Contact() {
               paddingBottom: "50px",
             }}
           >
-            <h3 className="title-left">Get in Touch</h3>
+            <h3 className="title-left">Feel free to <strong className="yellow">connect</strong> with me on</h3>
             <h4>
              <a
                href="https://www.linkedin.com/in/bfguo/"
