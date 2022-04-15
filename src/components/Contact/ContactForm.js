@@ -6,16 +6,18 @@ import {
 
 import ReCAPTCHA from "react-google-recaptcha";
  
-function handleOnChange(value) {
-  console.log("Captcha value:", value);
-}
+
 
 const ContactForm = () => {
+
   const [state, handleSubmit] = useForm("xzboaajb");
   if (state.succeeded) {
       return <p>Thank you! We'll be in touch soon.</p>;
   }
 
+function handleOnChange(value) {
+  console.log("Captcha value:", value);
+}
   return (
     <form onSubmit={handleSubmit}>
       <div className="form-group">
@@ -55,9 +57,10 @@ const ContactForm = () => {
         errors={state.errors}
       />
       </div>
+      <br></br>
       <div className="form-group">
       <ReCAPTCHA
-    sitekey="6LfSfWIfAAAAAJA9rB-Lcizo-T3YRHxE1OZL8lV6"
+    sitekey="6Ldy83YfAAAAAChQrSW8UOm0MjFs5JbVlBrEOiCk"
     onChange={handleOnChange}
   />
       </div>
