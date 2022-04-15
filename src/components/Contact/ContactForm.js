@@ -50,6 +50,7 @@ function handleOnChange(value) {
           placeholder="Enter your message"
           name="message"
           className="form-control"
+          rows="5"
         />
         <ValidationError 
         prefix="Message" 
