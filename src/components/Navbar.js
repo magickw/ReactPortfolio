@@ -36,7 +36,7 @@ function NavBar() {
     >
       <Container>
       <Navbar.Brand as={Link} to="/" onClick={() => updateExpanded(false)}>
-               <h3 className="nav-header" alt="header">BAOFENG GUO</h3>
+               <h3 className="nav-header" alt="header">&lt;BAOFENG.DEV /&gt;</h3>
             </Navbar.Brand>
         {/* toggle to burger menu on small screen devices */}
         <Navbar.Toggle

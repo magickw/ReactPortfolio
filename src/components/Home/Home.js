@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../assets/profile.jpg";
 import Type from "./Type";
+import { ImLocation2 } from "react-icons/im";
 
 import emoji from "react-easy-emoji";
 
@@ -26,8 +27,11 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ justifyContent: "center", paddingBottom: 20 }}>
               <img src={profileImg} alt="profile" className="img-fluid"/>
+              <ImLocation2 style={{ fontSize: "2em",  paddingTop: "10px" }}> San Fransico Bay Area
+              </ImLocation2>
+              
             </Col>
           </Row>
           
