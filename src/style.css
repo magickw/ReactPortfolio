@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: hsl(102, 86%, 52%);
+  --imp-text-color: hsl(62, 85%, 41%);
 }
 
 .yellow {
@@ -63,7 +63,7 @@ html {
   transition: all 0.3s ease-out 0s !important;
   /* display: flex-end !important; */
   /* float: right !important; */
-  padding: 0.3rem 2rem !important;
+  padding: 1.0rem 0.5rem !important;
   font-size: 1.2rem !important;
 }
 

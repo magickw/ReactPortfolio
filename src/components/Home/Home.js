@@ -5,6 +5,24 @@ import Type from "./Type";
 import { ImLocation2 } from "react-icons/im";
 
 import emoji from "react-easy-emoji";
+// Animation
+import { motion } from "framer-motion";
+
+const contentVariants = {
+  initial: {
+    translateX: "-100vw",
+    opacity: 0,
+  },
+
+  animate: {
+    translateX: "0vw",
+    opacity: 1,
+    transition: {
+      duration: 2,
+      when: "beforeChildren",
+    },
+  },
+};
 
 function Home() {
   return (
@@ -12,6 +30,12 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
+          <motion.div
+        className="content"
+        variants={contentVariants}
+        initial="initial"
+        animate="animate"
+      >
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -26,12 +50,11 @@ function Home() {
                 <Type />
               </div>
             </Col>
-
+            </motion.div>
             <Col md={5} style={{ justifyContent: "center", paddingBottom: 20 }}>
               <img src={profileImg} alt="profile" className="img-fluid"/>
-              <ImLocation2 style={{ fontSize: "2em",  paddingTop: "10px" }}> San Fransico Bay Area
+              <ImLocation2 style={{ fontSize: "2em",  paddingTop: "10px" }}> <i>San Fransico Bay Area</i>
               </ImLocation2>
-              
             </Col>
           </Row>
           
