@@ -11,6 +11,8 @@ import {
     ImEnvelop
    } from "react-icons/im";
 
+import handshake from "../../assets/handshake.png";
+
 import React, { useEffect } from "react";
 import ContactForm from "./ContactForm";
 
@@ -62,6 +64,7 @@ function Contact() {
              ><ImEnvelop /> Email
              </a>
              </h4>
+             <img src={handshake} alt="collaboration" className="img-fluid"/>
           </Col>
           
           {/* right side */}

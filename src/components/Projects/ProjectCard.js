@@ -7,7 +7,7 @@ import { BiLinkExternal } from "react-icons/bi";
 function ProjectCard (props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.image_path} alt="card-img" />
+      <Card.Img variant="top" src={props.image_url} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>

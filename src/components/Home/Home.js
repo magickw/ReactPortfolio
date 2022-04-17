@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../assets/profile.jpg";
 import Type from "./Type";
-import { ImLocation2 } from "react-icons/im";
+// import { ImLocation2 } from "react-icons/im";
 
 import emoji from "react-easy-emoji";
 // Animation
@@ -30,13 +30,14 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-          <motion.div
-        className="content"
+
+            <Col md={7} className="home-header">
+            <motion.div
+          className="home-header"
         variants={contentVariants}
         initial="initial"
         animate="animate"
       >
-            <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
@@ -49,13 +50,22 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+              </motion.div>
             </Col>
-            </motion.div>
+
+
+
             <Col md={5} style={{ justifyContent: "center", paddingBottom: 20 }}>
+            <motion.div
+        animate={{ translateY: [-20, 0, -20, 0] }}
+        transition={{ yoyo: Infinity, duration: 6 }}
+      >
               <img src={profileImg} alt="profile" className="img-fluid"/>
-              <ImLocation2 style={{ fontSize: "2em",  paddingTop: "10px" }}> <i>San Fransico Bay Area</i>
-              </ImLocation2>
+              {/* <ImLocation2 style={{ fontSize: "2em",  paddingTop: "10px" }}> <i>San Fransico Bay Area</i>
+              </ImLocation2> */}
+            </motion.div>
             </Col>
+
           </Row>
           
         </Container>

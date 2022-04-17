@@ -18,7 +18,7 @@ function Projects() {
                {projectData.map(project => (
                  <Col md={4} className="project-card" key={project.id}>
                 <ProjectCard
-                image_path={project.image_path}
+                image_url={project.image_url}
               title={project.title}
               description={project.description}
               repo_url={project.repo_url}

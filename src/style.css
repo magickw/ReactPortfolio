@@ -229,7 +229,7 @@ html {
 }
 
 .home-content {
-  padding: 12rem 0 2rem !important;
+  padding: 10rem 0 2rem !important;
   color: rgb(17, 184, 53);
   text-align: left;
 }
@@ -276,12 +276,12 @@ html {
   position: relative;
   padding-bottom: 100px !important;
   padding-top: 100px !important;
-  background-image: var(--image-gradient), url(./assets/background.jpg)!important;
+  background-image: var(--section-background-color) !important;
 }
 
 .contact-description {
   color: rgb(233, 230, 79) !important;
-  padding-top: 100px !important;
+  padding-top: 80px !important;
   padding-bottom: 20px !important;
   text-align: center;
 }
