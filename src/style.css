@@ -61,7 +61,7 @@ html {
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  /* display: flex-end !important; */
+  display: flex-end !important;
   /* float: right !important; */
   padding: 1.0rem 0.5rem !important;
   font-size: 1.2rem !important;
@@ -215,7 +215,7 @@ html {
 
 
 .home-header {
-  padding-top: 100px !important;
+  padding-top: 80px !important;
 }
 
 .home-section {
@@ -224,7 +224,7 @@ html {
   background-image: var(--image-gradient), url(./assets/background.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 10px !important;
+  padding-bottom: 20px !important;
   padding-top: 40px !important;
 }
 
@@ -274,14 +274,14 @@ html {
   text-align: center !important;
   color: white !important;
   position: relative;
-  padding-bottom: 80px !important;
-  padding-top: 80px !important;
+  padding-bottom: 50px !important;
+  padding-top: 100px !important;
   background-image: var(--section-background-color) !important;
 }
 
 .contact-description {
   color: rgb(233, 230, 79) !important;
-  padding-top: 80px !important;
+  padding-top: 50px !important;
   padding-bottom: 20px !important;
   text-align: center;
 }

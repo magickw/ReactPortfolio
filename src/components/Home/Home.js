@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../assets/profile.jpg";
 import Type from "./Type";
-// import { ImLocation2 } from "react-icons/im";
 
 import emoji from "react-easy-emoji";
 // Animation
@@ -61,8 +60,7 @@ function Home() {
         transition={{ yoyo: Infinity, duration: 6 }}
       >
               <img src={profileImg} alt="profile" className="img-fluid"/>
-              {/* <ImLocation2 style={{ fontSize: "2em",  paddingTop: "10px" }}> <i>San Fransico Bay Area</i>
-              </ImLocation2> */}
+
             </motion.div>
             </Col>
 
