@@ -36,34 +36,31 @@ function Contact() {
               paddingBottom: "50px",
             }}
           >
-            <h3 className="title-left">Feel free to <strong className="yellow">connect</strong> with me on</h3>
-            <h4>
+            <h3 className="title-left">Get in <strong className="yellow">Touch</strong></h3>
+            <div className="social-icons">
              <a
                href="https://www.linkedin.com/in/bfguo/"
                rel="noreferrer"
                target="_blank"
              >
-               <FaLinkedin /> Linkedin
+               <FaLinkedin />
              </a>
-           </h4>
-           <h4>
+
              <a
                href="https://github.com/magickw"
                rel="noreferrer"
                target="_blank"
              >
-               <FaGithubSquare /> Github
+               <FaGithubSquare />
              </a>
-           </h4>
 
-           <h4>
            <a
                href="mailto:peterguo1983@gmail.com"
                rel="noreferrer"
                target="_blank"
-             ><ImEnvelop /> Email
+             ><ImEnvelop />
              </a>
-             </h4>
+             </div>
              <img src={handshake} alt="collaboration" className="img-fluid"/>
           </Col>
           
