@@ -23,7 +23,6 @@ function Projects() {
               description={project.description}
               repo_url={project.repo_url}
               deployed_url={project.deployed_url}
-
                 />
           </Col>
  ))}
